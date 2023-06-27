@@ -364,7 +364,7 @@ with tab3:
             personal_web = Image.open("images//personal.png")
             st.image(personal_web)
             st.markdown('---')
-            st.markdown('''<div class= "Personal"><a href=" https://vina-homes.onrender.com"><b>PERSONAL WEBSITE</b></a></div>''', unsafe_allow_html=True)
+            st.markdown('''<div class= "Personal"><a href="https://geofreymacharia.onrender.com"><b>PERSONAL WEBSITE</b></a></div>''', unsafe_allow_html=True)
             st.markdown('''<div class= "Personal_info" >Deployed website providing details about myself as well as the providing a gateway to
             my achievements.</div>''', unsafe_allow_html=True)
             st.markdown('''<div class= "Personal_further" >
