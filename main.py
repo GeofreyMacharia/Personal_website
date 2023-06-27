@@ -196,7 +196,7 @@ with tab1:
         with main_col2:
             st.markdown('''<div class="Home"></div>''',unsafe_allow_html=True)
             st.markdown('''<div class="My_face"></div>''',unsafe_allow_html=True)
-            set_png_as_page_bg3('images\\Profile_face.png')
+            set_png_as_page_bg3('images//Profile_face.png')
             st.markdown('''<div class="My_name"> Geofrey Macharia</div>''',unsafe_allow_html=True)
             st.markdown('''<div class="My_work">Data scientist | Data Analyst | Software Engineer </div>''',unsafe_allow_html=True)
 
@@ -238,7 +238,7 @@ with tab2:
         with inner_about:
             abt_img, abt_info,= st.columns([.6, 1])
         with abt_img:
-            personal_img = Image.open('images\\Profile_face.png')
+            personal_img = Image.open('images//Profile_face.png')
             st.image(personal_img)
 
 
@@ -291,7 +291,7 @@ with tab2:
             ''', unsafe_allow_html=True)
 
             st.markdown('''<div class='anim'></div>''',unsafe_allow_html=True)
-            set_png_as_page_bg('anime\\programming.gif')
+            set_png_as_page_bg('anime//programming.gif')
 
         
         
@@ -329,7 +329,7 @@ with tab2:
         
         with about_tab3:
             st.markdown('''<div class='hobby' style=' height:40vh; width:75%; margin-left:10%; margin-top:5%;'></div>''',unsafe_allow_html=True)
-            set_png_as_page_bg2('anime\\not.gif')
+            set_png_as_page_bg2('anime//not.gif')
 
 
 
@@ -342,7 +342,7 @@ with tab3:
         st.markdown("<h5 style='text-align: center; margin-bottom:2%;  font-size:14px; font-weight:200; '>Take a look at my recent work. </h5>", unsafe_allow_html=True)
         proj2, proj3,proj4 = st.columns([.3,.274,.2368])
         with proj2:
-            vina_home = Image.open("images\\Home.png")
+            vina_home = Image.open("images//Home.png")
             st.image(vina_home)
             st.markdown('---')
             st.markdown('''<div class="Vina"><a href=" https://vina-homes.onrender.com"><b>VINA HOMES</b></a></div>''', unsafe_allow_html=True)
@@ -350,7 +350,7 @@ with tab3:
             which uses two machine learning algorithms to predict the price based on the values selected by the user.</div>''', unsafe_allow_html=True)
             st.markdown('''<div class= "Vina_further"><a href="https://github.com/GeofreyMacharia/Vina-House"><b>Further details</b></a></div>''', unsafe_allow_html=True)
         with proj3:
-            time_img = Image.open("images\\time-series.png")
+            time_img = Image.open("images//time-series.png")
             st.image(time_img)
             st.markdown('---')
             st.markdown('''<div class="Time"><a href=" https://github.com/GeofreyMacharia/Timeseries-Analysis-and-Forecasting-Projects"><b>TIME SERIES</b></a></div>''', unsafe_allow_html=True)
@@ -361,7 +361,7 @@ with tab3:
 
 
         with proj4:
-            personal_web = Image.open("images\\personal.png")
+            personal_web = Image.open("images//personal.png")
             st.image(personal_web)
             st.markdown('---')
             st.markdown('''<div class= "Personal"><a href=" https://vina-homes.onrender.com"><b>PERSONAL WEBSITE</b></a></div>''', unsafe_allow_html=True)
@@ -372,7 +372,7 @@ with tab3:
         
         proj5, proj6,proj7 = st.columns([.3,.3335,.25])
         with proj5:
-            heart = Image.open('images\\heart2_.png')
+            heart = Image.open('images//heart2_.png')
             st.image(heart)
             st.markdown('---')
             st.markdown('''<div class= "Heart"><a href=" https://github.com/GeofreyMacharia/Heart-Disease-Detection"><b>HEART DISEASE DETECTION</b></a></div>''', unsafe_allow_html=True)
@@ -384,7 +384,7 @@ with tab3:
 
         with proj6:
             
-            natural_images = Image.open('images\\conv2.jpg')
+            natural_images = Image.open('images//conv2.jpg')
             st.image(natural_images)
             st.markdown('---')
             st.markdown('''<div class= "Neural"><a href=" https://github.com/GeofreyMacharia/Natural-Images-with-CNN"><b>NATURAL IMAGES CLASSIFICATION </b></a></div>''', unsafe_allow_html=True)
@@ -393,7 +393,7 @@ with tab3:
             <a href="https://github.com/GeofreyMacharia/Natural-Images-with-CNN"><b>Further details</b></a></div>''', unsafe_allow_html=True)
         
         # with proj7:
-        #     financial = Image.open('images\\financial2.png')
+        #     financial = Image.open('images//financial2.png')
         #     st.image(financial)
 
 
@@ -412,9 +412,9 @@ with tab4:
         contact_col1, contact_col2 , contact_col3 = st.columns([.3, .5,.5])
         with contact_col1:
             st.markdown('''<div class='cont'></div>''',unsafe_allow_html=True)
-            set_png_as_page_bg5('anime\\contact.gif')
+            set_png_as_page_bg5('anime//contact.gif')
 
-            # lottie_contact = load_lottiefile("anime\\contact.json")
+            # lottie_contact = load_lottiefile("anime//contact.json")
             # st.lottie(lottie_contact,speed= 1.5,reverse=False,
             #     loop= True,height=200,width=200,key=None,
             #     quality="low", # high, low
@@ -435,7 +435,7 @@ with tab4:
                             </form>'''
                 
             st.markdown(contact_form, unsafe_allow_html=True)
-            local_css("style\\style.css")
+            local_css("style//style.css")
     
 
 
